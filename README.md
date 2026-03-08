@@ -17,7 +17,7 @@ import absplot
 ## Quick Start
 Firstly, define the mainframe:
 ```Python
-mainframe = absplot.MainFrame(width=150, height=55)
+mainframe = absplot.MainFrame(width=80, height=80)
 ```
 and you can assign absolute positions and dimensions of a figure panel simply by:
 ```Python
@@ -31,9 +31,9 @@ pframe.ax.set_ylabel('Y-Axis', fontsize=10)
 ```
 You can also define an empty frame as a container of multiple plot frames by:
 ```Python
-eframe = absplot.EmptyFrame(mainframe=mainframe, left=1, bottom=1, width=120, height=60)
+eframe = absplot.EmptyFrame(mainframe=mainframe, left=1, bottom=1, width=160, height=80)
 pframe1 = absplot.PlotFrame(mainframe=mainframe, parentframe=eframe, left=15, bottom=20, width=50, height=50)
-pframe2 = absplot.PlotFrame(mainframe=mainframe, parentframe=eframe, left=15 + 60, bottom=20, width=50, height=50)
+pframe2 = absplot.PlotFrame(mainframe=mainframe, parentframe=eframe, left=15 + 80, bottom=20, width=50, height=50)
 ```
 This function facilitates reuse of a part of a complex figure.
 
