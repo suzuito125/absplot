@@ -48,4 +48,4 @@ see [examples/absplot_examples.ipynb](examples/absplot_examples.ipynb).
 - Intuitive addition of inset panels
 
 ## Use cases
-- S. Ito et al., Nature, 616, 696 (2023). DOI: 10.1038/s41586-023-05850-x
+- S. Ito *et al*., Nature, **616**, 696 (2023). [DOI: 10.1038/s41586-023-05850-x](https://www.nature.com/articles/s41586-023-05850-x)
