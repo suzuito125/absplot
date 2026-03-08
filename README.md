@@ -3,7 +3,7 @@ Python wrapper for assigning absolute positions and dimensions to Matplotlib fig
 
 ## Motivation
 Matplotlib facilitates creation of simple figures, but absolute positioning of figure elements — especially colorbars — is not straightforward. Such precise control is critical for producing complex figures for scientific
-journals, and has traditionally required tools such as MATLAB or Igor Pro. This wrapper enables absolute positioning with minimal code.
+journals, and has traditionally required tools such as MATLAB or Igor Pro. This wrapper enables absolute positioning in Python with minimal code.
 
 ## Installation
 ```bash
